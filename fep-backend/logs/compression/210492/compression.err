@@ -1,7 +1,0 @@
-+ set +x
-+ srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc 'PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 32993 --log-level info'
-GpuFreq=control_disabled
-srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
-slurmstepd: error: *** JOB 210492 ON dgxa100-ncit-wn02 CANCELLED AT 2025-08-21T16:26:49 ***
-slurmstepd: error: *** STEP 210492.0 ON dgxa100-ncit-wn02 CANCELLED AT 2025-08-21T16:26:49 ***
-srun: forcing job termination

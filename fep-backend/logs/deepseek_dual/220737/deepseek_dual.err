@@ -1,3 +1,0 @@
-[ERROR] Model server exited unexpectedly.
-/var/spool/slurmd/job220737/slurm_script: line 118: kill: (3928052) - No such process
-/var/spool/slurmd/job220737/slurm_script: line 119: kill: (3928035) - No such process
