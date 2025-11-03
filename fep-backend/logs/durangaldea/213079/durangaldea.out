@@ -1,0 +1,459 @@
+[2025-09-11 14:46:59+0300] [INFO] Starting model server on 30969 for durangaldea
+[2025-09-11 14:46:59+0300] [INFO] which python: /usr/bin/python
+Python 3.6.8
+[2025-09-11 14:46:59+0300] [INFO] which uvicorn: /export/home/proiecte/aux/ovidiu.ghibea/.local/bin/uvicorn
+[2025-09-11 14:46:59+0300] [INFO] key env: MCP_TRANSPORT=stdio MCP_BASE_DIR=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/MCP-main
+[2025-09-11 14:46:59+0300] [INFO] SLURM_JOB_GPUS=1 CUDA_VISIBLE_DEVICES=0
+[2025-09-11 14:46:59+0300] [INFO] Uvicorn (srun step) PID: 1891838
+[2025-09-11 14:46:59+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:01+0300] [INFO] Waiting for model server health...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+[2025-09-11 14:47:03+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:05+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:07+0300] [INFO] Waiting for model server health...
+🦥 Unsloth Zoo will now patch everything to make training faster!
+[2025-09-11 14:47:09+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:11+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:13+0300] [INFO] Waiting for model server health...
+==((====))==  Unsloth 2025.7.8: Fast Llama patching. Transformers: 4.53.3.
+   \\   /|    NVIDIA A100-SXM4-80GB. Num GPUs = 1. Max memory: 79.151 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.7.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.3.1
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.31.post1. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+[2025-09-11 14:47:15+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:17+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:19+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:21+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:23+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:25+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:27+0300] [INFO] Waiting for model server health...
+==((====))==  Unsloth 2025.7.8: Fast Llama patching. Transformers: 4.53.3.
+   \\   /|    NVIDIA A100-SXM4-80GB. Num GPUs = 1. Max memory: 79.151 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.7.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.3.1
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.31.post1. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+[2025-09-11 14:47:29+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:31+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:33+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:35+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:37+0300] [INFO] Waiting for model server health...
+[2025-09-11 14:47:39+0300] [INFO] Health OK.
+INFO:     127.0.0.1:51358 - "GET /health HTTP/1.1" 200 OK
+[2025-09-11 14:47:39+0300] [INFO] autossh wrapper PID: 1894660; log: /export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/durangaldea/213079/autossh.log
+INFO:     127.0.0.1:51364 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51372 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51376 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51386 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51400 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51416 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51424 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51440 - "GET /health HTTP/1.1" 200 OK
+[2025-09-11 14:47:43+0300] [INFO] Warm-up query sent.
+INFO:     127.0.0.1:51456 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51470 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51484 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51496 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51504 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51518 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46782 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46788 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46790 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46792 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46808 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46816 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46820 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46824 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46840 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46842 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46848 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46864 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46876 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46880 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42444 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42456 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52706 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52722 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33790 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33796 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38958 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38966 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38982 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38998 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39008 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39012 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39020 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39030 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39036 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39040 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39056 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39064 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39080 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39096 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39102 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48872 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48888 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48904 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48908 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48920 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48936 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48944 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48948 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48956 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48958 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48966 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48970 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48976 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48982 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48996 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48998 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49000 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49006 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49018 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49030 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49046 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49062 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49066 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49074 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49090 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49094 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49104 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49108 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49116 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49132 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49136 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49140 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49148 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39062 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39078 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39086 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39102 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39116 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39132 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39148 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39154 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39160 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39176 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39180 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39186 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39192 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39204 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39212 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39218 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39228 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39240 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39254 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39270 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39284 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39288 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39300 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39314 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39320 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39336 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39350 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39356 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39370 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39382 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39384 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46966 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46974 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46986 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47000 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47016 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47018 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47022 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47038 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47054 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47060 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47074 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47088 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47100 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47114 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47128 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47142 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47144 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47156 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47164 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47176 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47188 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47192 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47206 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47222 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47234 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47242 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47250 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47262 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58458 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58462 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58472 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58480 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58492 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58504 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58518 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58530 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58536 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58542 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58552 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58560 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58568 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58582 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58594 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58598 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58610 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58612 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58616 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58624 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58638 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58652 - "GET /health HTTP/1.1" 200 OK
+[2025-09-11 14:51:21+0300] [DIAG] SIGTERM
+[2025-09-11 14:51:21+0300] ========== DIAGNOSTICS (rc=143) ==========
+Thu Sep 11 14:51:21 EEST 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+213079              durangaldea CANCELLED+      0:0             0:0   00:04:23   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-09-11T14:51:21                           None                
+213079.batch              batch  CANCELLED      0:0                   00:04:23                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-11T14:51:21                                               
+213079.exte+             extern  CANCELLED      0:0                   00:04:23                       billing=1+    dgxa100-ncit-wn02 2025-09-11T14:51:21                                               
+213079.0                   bash  CANCELLED      0:0                   00:04:22                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-11T14:51:21                                               
+JobId=213079 JobName=durangaldea
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:04:23 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-09-11T14:46:58 EligibleTime=2025-09-11T14:46:58
+   AccrueTime=2025-09-11T14:46:58
+   StartTime=2025-09-11T14:46:58 EndTime=2025-09-11T14:51:21 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-09-11T14:46:58 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:259825
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=255 Mem=40960 GRES=
+   MinCPUsNode=24 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/durangaldea/213079/durangaldea.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/durangaldea/213079/durangaldea.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+1891838 1891813 1891813       04:22 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 30969 --log-level info
+-- autossh tail --
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 59994
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 59996
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60000
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60002
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60012
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60014
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60018
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60020
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 1: connected to 127.0.0.1 port 30969
+debug1: channel 1: free: 172.17.0.4, nchannels 2
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60022
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60024
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60026
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+[2025-09-11 14:51:21+0300] ========== END DIAGNOSTICS ==========
+[2025-09-11 14:51:21+0300] ========== DIAGNOSTICS (rc=143) ==========
+Thu Sep 11 14:51:21 EEST 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+213079              durangaldea CANCELLED+      0:0             0:0   00:04:23   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-09-11T14:51:21                           None                
+213079.batch              batch  CANCELLED      0:0                   00:04:23                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-11T14:51:21                                               
+213079.exte+             extern  CANCELLED      0:0                   00:04:23                       billing=1+    dgxa100-ncit-wn02 2025-09-11T14:51:21                                               
+213079.0                   bash  CANCELLED      0:0                   00:04:22                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-11T14:51:21                                               
+JobId=213079 JobName=durangaldea
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:04:23 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-09-11T14:46:58 EligibleTime=2025-09-11T14:46:58
+   AccrueTime=2025-09-11T14:46:58
+   StartTime=2025-09-11T14:46:58 EndTime=2025-09-11T14:51:21 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-09-11T14:46:58 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:259825
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=255 Mem=40960 GRES=
+   MinCPUsNode=24 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/durangaldea/213079/durangaldea.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/durangaldea/213079/durangaldea.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+1891838 1891813 1891813       04:22 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 30969 --log-level info
+-- autossh tail --
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 59994
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 59996
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60000
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60002
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60012
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60014
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60018
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60020
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 1: connected to 127.0.0.1 port 30969
+debug1: channel 1: free: 172.17.0.4, nchannels 2
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60022
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60024
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.4 port 60026
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:30969) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 30969
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+[2025-09-11 14:51:22+0300] ========== END DIAGNOSTICS ==========

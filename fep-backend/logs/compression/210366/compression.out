@@ -1,0 +1,308 @@
+[2025-08-20 16:27:12+0300] [INFO] Starting model server on 37962 for compression
+[2025-08-20 16:27:12+0300] [INFO] which python: /usr/bin/python
+Python 3.6.8
+[2025-08-20 16:27:12+0300] [INFO] which uvicorn: /export/home/proiecte/aux/ovidiu.ghibea/.local/bin/uvicorn
+[2025-08-20 16:27:12+0300] [INFO] key env: MCP_TRANSPORT=stdio MCP_BASE_DIR=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/MCP-main
+[2025-08-20 16:27:12+0300] [INFO] SLURM_JOB_GPUS=4 CUDA_VISIBLE_DEVICES=0
+[2025-08-20 16:27:12+0300] [INFO] Uvicorn (srun step) PID: 1263698
+[2025-08-20 16:27:12+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:14+0300] [INFO] Waiting for model server health...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+[2025-08-20 16:27:16+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:18+0300] [INFO] Waiting for model server health...
+🦥 Unsloth Zoo will now patch everything to make training faster!
+[2025-08-20 16:27:20+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:22+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:24+0300] [INFO] Waiting for model server health...
+==((====))==  Unsloth 2025.7.8: Fast Llama patching. Transformers: 4.53.3.
+   \\   /|    NVIDIA A100-SXM4-80GB. Num GPUs = 1. Max memory: 79.151 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.7.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.3.1
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.31.post1. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+[2025-08-20 16:27:26+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:28+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:30+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:32+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:34+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:36+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:38+0300] [INFO] Waiting for model server health...
+==((====))==  Unsloth 2025.7.8: Fast Llama patching. Transformers: 4.53.3.
+   \\   /|    NVIDIA A100-SXM4-80GB. Num GPUs = 1. Max memory: 79.151 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.7.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.3.1
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.31.post1. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+[2025-08-20 16:27:40+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:42+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:44+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:46+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:48+0300] [INFO] Waiting for model server health...
+[2025-08-20 16:27:50+0300] [INFO] Health OK.
+INFO:     127.0.0.1:37070 - "GET /health HTTP/1.1" 200 OK
+[2025-08-20 16:27:50+0300] [INFO] autossh wrapper PID: 1266025; log: /export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/210366/autossh.log
+INFO:     127.0.0.1:37074 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37086 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37094 - "GET /health HTTP/1.1" 200 OK
+[2025-08-20 16:27:54+0300] [INFO] Warm-up query sent.
+INFO:     127.0.0.1:37106 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37120 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37594 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37608 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37612 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37626 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37634 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39334 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39346 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39360 - "GET /health HTTP/1.1" 200 OK
+[2025-08-20 16:28:25+0300] [DIAG] SIGTERM
+[2025-08-20 16:28:25+0300] ========== DIAGNOSTICS (rc=143) ==========
+Wed Aug 20 16:28:25 EEST 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+210366              compression CANCELLED+      0:0             0:0   00:01:14   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-08-20T16:28:25                           None                
+210366.batch              batch  CANCELLED      0:0                   00:01:14                       cpu=1,gre+    dgxa100-ncit-wn02 2025-08-20T16:28:25                                               
+210366.exte+             extern  CANCELLED      0:0                   00:01:14                       billing=1+    dgxa100-ncit-wn02 2025-08-20T16:28:25                                               
+210366.0                   bash  CANCELLED      0:0                   00:01:13                       cpu=1,gre+    dgxa100-ncit-wn02 2025-08-20T16:28:25                                               
+JobId=210366 JobName=compression
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:01:14 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-08-20T16:27:11 EligibleTime=2025-08-20T16:27:11
+   AccrueTime=2025-08-20T16:27:11
+   StartTime=2025-08-20T16:27:11 EndTime=2025-08-20T16:28:25 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-08-20T16:27:11 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:3733815
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=30 Mem=40960 GRES=
+   MinCPUsNode=24 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/210366/compression.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/210366/compression.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+1263698 1263675 1263675       01:13 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 37962 --log-level info
+-- autossh tail --
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35172
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35174
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35176
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35178
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35180
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35182
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35184
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35186
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35188
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35190
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35192
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+[2025-08-20 16:28:25+0300] ========== END DIAGNOSTICS ==========
+[2025-08-20 16:28:25+0300] ========== DIAGNOSTICS (rc=143) ==========
+Wed Aug 20 16:28:25 EEST 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+210366              compression CANCELLED+      0:0             0:0   00:01:14   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-08-20T16:28:25                           None                
+210366.batch              batch  CANCELLED      0:0                   00:01:14                       cpu=1,gre+    dgxa100-ncit-wn02 2025-08-20T16:28:25                                               
+210366.exte+             extern  CANCELLED      0:0                   00:01:14                       billing=1+    dgxa100-ncit-wn02 2025-08-20T16:28:25                                               
+210366.0                   bash  CANCELLED      0:0                   00:01:13                       cpu=1,gre+    dgxa100-ncit-wn02 2025-08-20T16:28:25                                               
+JobId=210366 JobName=compression
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:01:14 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-08-20T16:27:11 EligibleTime=2025-08-20T16:27:11
+   AccrueTime=2025-08-20T16:27:11
+   StartTime=2025-08-20T16:27:11 EndTime=2025-08-20T16:28:25 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-08-20T16:27:11 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:3733815
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=30 Mem=40960 GRES=
+   MinCPUsNode=24 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/210366/compression.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/210366/compression.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+1263698 1263675 1263675       01:13 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 37962 --log-level info
+-- autossh tail --
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 3 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35172
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35174
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35176
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35178
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35180
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35182
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35184
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35186
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35188
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35190
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 35192
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:37962) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 37962
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+[2025-08-20 16:28:26+0300] ========== END DIAGNOSTICS ==========

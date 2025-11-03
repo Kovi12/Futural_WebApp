@@ -1,0 +1,16 @@
++ set +x
++ srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc 'PYTHONUNBUFFERED=1 python -m uvicorn http_model_server_llama_dual:app --host 0.0.0.0 --port 38629 --log-level info'
+GpuFreq=control_disabled
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/usr/lib64/python3.6/runpy.py", line 142, in _get_module_details
+    return _get_module_details(pkg_main_name, error)
+  File "/usr/lib64/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.6/site-packages/uvicorn/__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.6/site-packages/uvicorn/config.py", line 16, in <module>
+    from typing_extensions import Literal
+ModuleNotFoundError: No module named 'typing_extensions'
+srun: error: dgxa100-ncit-wn02: task 0: Exited with exit code 1

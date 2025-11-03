@@ -1,0 +1,57 @@
++ set +x
++ srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc 'PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 39642 --log-level info'
+GpuFreq=control_disabled
+Traceback (most recent call last):
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.10/site-packages/uvicorn/main.py", line 413, in main
+    run(
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.10/site-packages/uvicorn/main.py", line 580, in run
+    server.run()
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.10/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.10/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.10/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.10/site-packages/uvicorn/config.py", line 436, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/http_model_server.py", line 1, in <module>
+    from unsloth import FastLanguageModel
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/unsloth/__init__.py", line 243, in <module>
+    from .models import *
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/unsloth/models/__init__.py", line 15, in <module>
+    from .llama     import FastLlamaModel
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/unsloth/models/llama.py", line 2986, in <module>
+    PatchFastRL(FastLanguageModel = FastLlamaModel)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/unsloth/models/rl.py", line 895, in PatchFastRL
+    patch_trl_rl_trainers()
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/unsloth/models/rl.py", line 888, in patch_trl_rl_trainers
+    _patch_trl_rl_trainers(trainer)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/lib/python3.10/site-packages/unsloth/models/rl.py", line 679, in _patch_trl_rl_trainers
+    exec(f"trl.{RLTrainer_name} = created_module.Unsloth{RLTrainer_name}", locals(), globals())
+  File "<string>", line 1, in <module>
+AttributeError: module 'UnslothAlignPropTrainer' has no attribute 'UnslothAlignPropTrainer'
+srun: error: dgxa100-ncit-wn02: task 0: Exited with exit code 1

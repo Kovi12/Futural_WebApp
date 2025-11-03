@@ -1,0 +1,6 @@
+flask
+flask-cors
+paramiko
+requests
+pydantic
+Flask-Limiter==3.5.0

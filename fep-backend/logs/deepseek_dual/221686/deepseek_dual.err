@@ -1,0 +1,50 @@
++ set +x
++ srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc '
+    set -euo pipefail
+    echo "[SRUN] starting on $(hostname)"
+
+    RUN_CMD=()
+    if [[ -n "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python" ]]; then
+      echo "[SRUN] using env python: /export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python"
+      RUN_CMD=("/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python")
+    elif [[ -n "" ]]; then
+      echo "[SRUN] using conda run"
+      RUN_CMD=("" run -n mcp-poc python)
+    elif [[ -n "" ]]; then
+      echo "[SRUN] sourcing conda.sh and activating mcp-poc"
+      source ""
+      conda activate mcp-poc
+      RUN_CMD=(python)
+    else
+      echo "[SRUN][FATAL] No conda env found and no conda.sh to activate. Aborting."
+      exit 1
+    fi
+
+    echo "[SRUN] which python: $(command -v "${RUN_CMD[0]}" || true)"
+    "${RUN_CMD[@]}" --version || true
+
+    # quick sanity import so we fail fast if env is wrong
+    "${RUN_CMD[@]}" - <<PY
+try:
+    import typing_extensions, fastapi, uvicorn
+    print("[SRUN] imports OK")
+except Exception as e:
+    import sys, traceback
+    print("[SRUN] import error:", e)
+    traceback.print_exc()
+    sys.exit(1)
+PY
+
+    # NOTE: Unsloth complains if imported after transformers;
+    # our http_model_server_* files already import in the correct order.
+    PYTHONUNBUFFERED=1 "${RUN_CMD[@]}" -m uvicorn http_model_server_deepseek_dual:app --host 0.0.0.0 --port 30044 --log-level info
+  '
+GpuFreq=control_disabled
+INFO:     Started server process [1183719]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:30044 (Press CTRL+C to quit)
+slurmstepd: error: *** STEP 221686.0 ON dgxa100-ncit-wn02 CANCELLED AT 2025-10-23T01:11:25 ***
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
+slurmstepd: error: *** JOB 221686 ON dgxa100-ncit-wn02 CANCELLED AT 2025-10-23T01:11:25 ***
+srun: forcing job termination

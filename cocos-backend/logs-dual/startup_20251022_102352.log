@@ -1,0 +1,111 @@
+[INFO] === Starting dual backend container setup ===
+[INFO] Log file: /var/log/llm-backend-dual/startup_20251022_102352.log
+[INFO] Probing host.docker.internal:23459/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23459...
+* connect to 172.17.0.1 port 23459 failed: Connection refused
+* Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23459. (This is only informational.)
+[INFO] Probing host.docker.internal:23456/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23456...
+* connect to 172.17.0.1 port 23456 failed: Connection refused
+* Failed to connect to host.docker.internal port 23456 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23456 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23456. (This is only informational.)
+[INFO] Starting dual backend Flask server on port 8010 ...
+/usr/local/lib/python3.11/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+[TOKEN REAPER] disabled
+ * Serving Flask app 'app_dual'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8010
+ * Running on http://172.17.0.7:8010
+[33mPress CTRL+C to quit[0m
+82.76.155.24 - - [22/Oct/2025 10:23:53] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:23:53] "POST /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:23:59] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:23:59] "POST /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:04] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:04] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:04] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:05] "[35m[1mPOST /answer HTTP/1.1[0m" 202 -
+82.76.155.24 - - [22/Oct/2025 10:24:06] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:08] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:09] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:11] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:13] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:14] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:16] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:17] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:19] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:20] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:22] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:23] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:25] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:26] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:27] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:27] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:27] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:27] "[35m[1mPOST /answer HTTP/1.1[0m" 202 -
+82.76.155.24 - - [22/Oct/2025 10:24:28] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:29] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:29] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:30] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:31] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:32] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:32] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:33] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:34] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:35] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:35] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:36] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:37] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:38] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:38] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:39] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:40] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:41] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:41] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:42] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:44] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:44] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:45] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:45] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:47] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:47] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:48] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:48] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:49] "GET /progress_ui/durangaldea?token=17611286935790.4693222670925019 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:49] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:50] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:52] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:53] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:53] "POST /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:55] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:56] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:57] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:59] "GET /progress_ui/compression?token=17611287221120.5770829897211215 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:24:59] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:25:28] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:25:28] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:25:28] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:25:35] "POST /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:25:44] "POST /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:25:55] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:25:55] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:25:55] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:28:15] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:28:15] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:28:15] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:31:55] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:41:16] "OPTIONS /cancel_model HTTP/1.1" 200 -

@@ -1,0 +1,380 @@
+[2025-09-10 11:40:50+0300] [INFO] Starting model server on 27935 for compression
+[2025-09-10 11:40:50+0300] [INFO] which python: /usr/bin/python
+[2025-09-10 11:40:50+0300] [INFO] which uvicorn: /export/home/proiecte/aux/ovidiu.ghibea/.local/bin/uvicorn
+[2025-09-10 11:40:50+0300] [INFO] key env: MCP_TRANSPORT=stdio MCP_BASE_DIR=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/MCP-main
+[2025-09-10 11:40:50+0300] [INFO] SLURM_JOB_GPUS=1 CUDA_VISIBLE_DEVICES=0
+[2025-09-10 11:40:50+0300] [INFO] Uvicorn (srun step) PID: 2250550
+[2025-09-10 11:40:50+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:40:52+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:40:54+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:40:56+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:40:58+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:00+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:02+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:04+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:06+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:08+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:10+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:12+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:14+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:16+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:18+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:20+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:22+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:24+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:26+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:28+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:30+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:32+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:34+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:36+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:38+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:40+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:42+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:44+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:46+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:48+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:50+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:52+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:54+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:57+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:41:59+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:01+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:03+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:05+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:07+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:09+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:11+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:13+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:15+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:17+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:19+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:21+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:23+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:25+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:28+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:30+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:32+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:34+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:36+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:38+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:40+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:42+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:44+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:46+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:48+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:50+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:52+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:54+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:56+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:42:58+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:00+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:02+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:04+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:06+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:08+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:10+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:12+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:14+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:16+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:18+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:20+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:22+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:24+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:26+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:28+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:30+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:32+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:34+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:36+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:38+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:40+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:42+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:44+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:46+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:48+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:50+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:52+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:54+0300] [INFO] Waiting for model server health...
+[2025-09-10T11:43:55.271151] Loading model: compression from meta-llama/Llama-3.1-8B-Instruct
+[2025-09-10 11:43:56+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:43:58+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:00+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:02+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:04+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:06+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:08+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:10+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:12+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:14+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:16+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:18+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:20+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:22+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:24+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:26+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:28+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:30+0300] [INFO] Waiting for model server health...
+[2025-09-10 11:44:32+0300] [INFO] Waiting for model server health...
+[2025-09-10T11:44:33.670742] Model loaded and ready.
+[2025-09-10T11:44:33.670974] [WORKER] started
+[2025-09-10 11:44:34+0300] [INFO] Health OK.
+[2025-09-10 11:44:34+0300] [INFO] autossh wrapper PID: 2262652; log: /export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/212854/autossh.log
+[2025-09-10T11:44:34.762383] [QUERY RECEIVED] ping
+[2025-09-10T11:44:42.994904] [GEN RAW compression] '<|begin_of_text|>\n<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nping\n<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>\n<TODAY> Tuesday, 30 January 2040, 05:33 PM </TODAY> <METEO> [(???,???, 30-01-2040 17:33 - 30-01-2040 17:33)] -->  </METEO> '
+[2025-09-10T11:44:42.994965] [GEN SPLIT compression] '\n<TODAY> Tuesday, 30 January 2040, 05:33 PM </TODAY> <METEO> [(???,???, 30-01-2040 17:33 - 30-01-2040 17:33)] -->  </METEO> '
+[2025-09-10T11:44:42.994991] [GEN CLEAN compression] ''
+[2025-09-10 11:44:43+0300] [INFO] Warm-up query sent.
+[2025-09-10T11:45:03.551583] [QUERY RECEIVED] Hello
+[2025-09-10T11:45:04.091576] [GEN RAW compression] '<|begin_of_text|>\n<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nHello\n<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>\nThe current temperature in Bucharest is 32 degrees Celsius. '
+[2025-09-10T11:45:04.091641] [GEN SPLIT compression] '\nThe current temperature in Bucharest is 32 degrees Celsius. '
+[2025-09-10T11:45:04.091667] [GEN CLEAN compression] 'The current temperature in Bucharest is 32 degrees Celsius.'
+[2025-09-10 13:10:28+0300] [DIAG] SIGTERM
+[2025-09-10 13:10:28+0300] ========== DIAGNOSTICS (rc=143) ==========
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+212854              compression CANCELLED+      0:0             0:0   01:29:38   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-09-10T13:10:28                           None                
+212854.batch              batch  CANCELLED      0:0                   01:29:38                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-10T13:10:28                                               
+212854.exte+             extern  CANCELLED      0:0                   01:29:38                       billing=1+    dgxa100-ncit-wn02 2025-09-10T13:10:28                                               
+212854.0                   bash  CANCELLED      0:0                   01:29:38                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-10T13:10:28                                               
+JobId=212854 JobName=compression
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=01:29:38 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-09-10T11:40:49 EligibleTime=2025-09-10T11:40:49
+   AccrueTime=2025-09-10T11:40:49
+   StartTime=2025-09-10T11:40:50 EndTime=2025-09-10T13:10:28 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-09-10T11:40:50 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:51114
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=255 Mem=40960 GRES=
+   MinCPUsNode=24 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/212854/compression.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/212854/compression.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+2250550 2250524 2250524    01:29:38 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 27935 --log-level info
+-- autossh tail --
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46322
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46324
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46326
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46328
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46330
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46332
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46334
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 47394
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+[2025-09-10 13:10:28+0300] ========== END DIAGNOSTICS ==========
+[2025-09-10 13:10:28+0300] ========== DIAGNOSTICS (rc=143) ==========
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+212854              compression CANCELLED+      0:0             0:0   01:29:38   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-09-10T13:10:28                           None                
+212854.batch              batch  CANCELLED      0:0                   01:29:38                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-10T13:10:28                                               
+212854.exte+             extern  CANCELLED      0:0                   01:29:38                       billing=1+    dgxa100-ncit-wn02 2025-09-10T13:10:28                                               
+212854.0                   bash  CANCELLED      0:0                   01:29:38                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-10T13:10:28                                               
+JobId=212854 JobName=compression
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=01:29:38 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-09-10T11:40:49 EligibleTime=2025-09-10T11:40:49
+   AccrueTime=2025-09-10T11:40:49
+   StartTime=2025-09-10T11:40:50 EndTime=2025-09-10T13:10:28 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-09-10T11:40:50 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:51114
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=255 Mem=40960 GRES=
+   MinCPUsNode=24 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/212854/compression.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/212854/compression.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+2250550 2250524 2250524    01:29:38 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 27935 --log-level info
+-- autossh tail --
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46322
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=6
+debug1: channel 1: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 1: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 2
+debug1: channel 1: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46324
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46326
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46328
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46330
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46332
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 46334
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+autossh[2262656]: received SIGALRM (end-of-life 0)
+autossh[2262656]: check on child 2262658
+autossh[2262656]: clear alarm timer (0 secs left)
+autossh[2262656]: set alarm for 600 secs
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.4 port 47394
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:27935) in progress, fd=5
+debug1: channel 0: new [172.17.0.4]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 27935
+debug1: channel 0: free: 172.17.0.4, nchannels 1
+[2025-09-10 13:10:28+0300] ========== END DIAGNOSTICS ==========

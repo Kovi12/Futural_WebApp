@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/http_model_server_llama_dual.py", line 12, in <module>
+    from fastapi import FastAPI
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.6/site-packages/fastapi/__init__.py", line 7, in <module>
+    from .applications import FastAPI as FastAPI
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.6/site-packages/fastapi/applications.py", line 15, in <module>
+    from fastapi import routing
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.6/site-packages/fastapi/routing.py", line 21, in <module>
+    from fastapi import params
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.local/lib/python3.6/site-packages/fastapi/params.py", line 4, in <module>
+    from pydantic.fields import FieldInfo, Undefined
+  File "pydantic/__init__.py", line 2, in init pydantic.__init__
+  File "pydantic/dataclasses.py", line 3, in init pydantic.dataclasses
+    import copy
+  File "pydantic/class_validators.py", line 8, in init pydantic.class_validators
+  File "pydantic/errors.py", line 5, in init pydantic.errors
+  File "pydantic/typing.py", line 25, in init pydantic.typing
+    # Super-special typing primitives.
+ModuleNotFoundError: No module named 'typing_extensions'

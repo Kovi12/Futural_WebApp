@@ -1,0 +1,16 @@
++ set +x
++ srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc 'PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 29883 --log-level info'
+GpuFreq=control_disabled
+Device set to use cuda:0
+INFO:     Started server process [1798104]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:29883 (Press CTRL+C to quit)
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
+slurmstepd: error: *** JOB 213073 ON dgxa100-ncit-wn02 CANCELLED AT 2025-09-11T14:44:17 ***
+slurmstepd: error: *** STEP 213073.0 ON dgxa100-ncit-wn02 CANCELLED AT 2025-09-11T14:44:17 ***
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1798104]
+srun: forcing job termination

@@ -1,0 +1,308 @@
+[2025-10-15 13:51:39+0300] [INFO] Starting model server on 31006 for compression
+[2025-10-15 13:51:39+0300] [INFO] which python: /usr/bin/python
+Python 3.6.8
+[2025-10-15 13:51:39+0300] [INFO] which uvicorn: /export/home/proiecte/aux/ovidiu.ghibea/.local/bin/uvicorn
+[2025-10-15 13:51:39+0300] [INFO] key env: MCP_TRANSPORT=stdio MCP_BASE_DIR=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/MCP-main
+[2025-10-15 13:51:39+0300] [INFO] SLURM_JOB_GPUS=2 CUDA_VISIBLE_DEVICES=0
+[2025-10-15 13:51:39+0300] [INFO] Uvicorn (srun step) PID: 1612113
+[2025-10-15 13:51:39+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:51:41+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:51:43+0300] [INFO] Waiting for model server health...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+[2025-10-15 13:51:45+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:51:47+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:51:49+0300] [INFO] Waiting for model server health...
+🦥 Unsloth Zoo will now patch everything to make training faster!
+[2025-10-15 13:51:51+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:51:53+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:51:55+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:51:57+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:51:59+0300] [INFO] Waiting for model server health...
+==((====))==  Unsloth 2025.7.8: Fast Llama patching. Transformers: 4.53.3.
+   \\   /|    NVIDIA A100-SXM4-80GB. Num GPUs = 1. Max memory: 79.151 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.7.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.3.1
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.31.post1. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+[2025-10-15 13:52:01+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:03+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:05+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:07+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:09+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:11+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:13+0300] [INFO] Waiting for model server health...
+==((====))==  Unsloth 2025.7.8: Fast Llama patching. Transformers: 4.53.3.
+   \\   /|    NVIDIA A100-SXM4-80GB. Num GPUs = 1. Max memory: 79.151 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.7.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.3.1
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.31.post1. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+[2025-10-15 13:52:15+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:17+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:19+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:21+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:23+0300] [INFO] Waiting for model server health...
+[2025-10-15 13:52:25+0300] [INFO] Health OK.
+INFO:     127.0.0.1:42706 - "GET /health HTTP/1.1" 200 OK
+[2025-10-15 13:52:25+0300] [INFO] autossh wrapper PID: 1614389; log: /export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/218940/autossh.log
+INFO:     127.0.0.1:42716 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42718 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33196 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33212 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33214 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33226 - "GET /health HTTP/1.1" 200 OK
+[2025-10-15 13:52:34+0300] [INFO] Warm-up query sent.
+INFO:     127.0.0.1:33242 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33244 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52424 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52426 - "POST /query HTTP/1.1" 200 OK
+[2025-10-15 15:08:03+0300] [DIAG] SIGTERM
+[2025-10-15 15:08:04+0300] ========== DIAGNOSTICS (rc=143) ==========
+Wed Oct 15 15:08:04 EEST 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+218940              compression CANCELLED+      0:0             0:0   01:16:25   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-10-15T15:08:03                           None                
+218940.batch              batch  CANCELLED      0:0                   01:16:25                       cpu=1,gre+    dgxa100-ncit-wn02 2025-10-15T15:08:03                                               
+218940.exte+             extern  CANCELLED      0:0                   01:16:25                       billing=1+    dgxa100-ncit-wn02 2025-10-15T15:08:03                                               
+218940.0                   bash  CANCELLED      0:0                   01:16:24                       cpu=1,gre+    dgxa100-ncit-wn02 2025-10-15T15:08:03                                               
+JobId=218940 JobName=compression
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=01:16:25 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-10-15T13:51:37 EligibleTime=2025-10-15T13:51:37
+   AccrueTime=2025-10-15T13:51:37
+   StartTime=2025-10-15T13:51:38 EndTime=2025-10-15T15:08:03 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-10-15T13:51:38 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:1380671
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=239 Mem=40960 GRES=
+   MinCPUsNode=5 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/218940/compression.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/218940/compression.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+1612113 1612085 1612085    01:16:26 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 31006 --log-level info
+-- autossh tail --
+debug1: channel 1: connected to 127.0.0.1 port 31006
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 4 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57238
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=7
+debug1: channel 2: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 2: connected to 127.0.0.1 port 31006
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 5 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57240
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=8
+debug1: channel 3: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 3: connected to 127.0.0.1 port 31006
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 6 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57242
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=9
+debug1: channel 4: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 4: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 5
+debug1: channel 1: free: 172.17.0.7, nchannels 4
+debug1: channel 2: free: 172.17.0.7, nchannels 3
+debug1: channel 3: free: 172.17.0.7, nchannels 2
+debug1: channel 4: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57244
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57246
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57248
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57250
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+[2025-10-15 15:08:04+0300] ========== END DIAGNOSTICS ==========
+[2025-10-15 15:08:04+0300] ========== DIAGNOSTICS (rc=143) ==========
+Wed Oct 15 15:08:04 EEST 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+218940              compression CANCELLED+      0:0            0:15   01:16:25   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-10-15T15:08:03                           None                
+218940.batch              batch  CANCELLED      0:0                   01:16:25                       cpu=1,gre+    dgxa100-ncit-wn02 2025-10-15T15:08:03                                               
+218940.exte+             extern  CANCELLED      0:0                   01:16:25                       billing=1+    dgxa100-ncit-wn02 2025-10-15T15:08:03                                               
+218940.0                   bash  CANCELLED     0:15                   01:16:25                       cpu=1,gre+    dgxa100-ncit-wn02 2025-10-15T15:08:04                                               
+JobId=218940 JobName=compression
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:15
+   RunTime=01:16:25 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-10-15T13:51:37 EligibleTime=2025-10-15T13:51:37
+   AccrueTime=2025-10-15T13:51:37
+   StartTime=2025-10-15T13:51:38 EndTime=2025-10-15T15:08:03 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-10-15T13:51:38 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:1380671
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=239 Mem=40960 GRES=
+   MinCPUsNode=5 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/218940/compression.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/218940/compression.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+-- autossh tail --
+debug1: channel 1: connected to 127.0.0.1 port 31006
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 4 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57238
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=7
+debug1: channel 2: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 2: connected to 127.0.0.1 port 31006
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 5 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57240
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=8
+debug1: channel 3: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 3: connected to 127.0.0.1 port 31006
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 6 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57242
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=9
+debug1: channel 4: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 4: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 5
+debug1: channel 1: free: 172.17.0.7, nchannels 4
+debug1: channel 2: free: 172.17.0.7, nchannels 3
+debug1: channel 3: free: 172.17.0.7, nchannels 2
+debug1: channel 4: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57244
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57246
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57248
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23459, originator 172.17.0.7 port 57250
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:31006) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 31006
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+autossh[1614393]: received SIGALRM (end-of-life 0)
+autossh[1614393]: check on child 1614395
+autossh[1614393]: clear alarm timer (0 secs left)
+autossh[1614393]: set alarm for 600 secs
+[2025-10-15 15:08:04+0300] ========== END DIAGNOSTICS ==========

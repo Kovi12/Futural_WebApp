@@ -1,0 +1,62 @@
+[2025-09-10 15:24:57+0300] [INFO] Starting model server on 33937 for compression
+[2025-09-10 15:24:57+0300] [INFO] which python: /usr/bin/python
+Python 3.6.8
+[2025-09-10 15:24:57+0300] [INFO] which uvicorn: /export/home/proiecte/aux/ovidiu.ghibea/.local/bin/uvicorn
+[2025-09-10 15:24:57+0300] [INFO] key env: MCP_TRANSPORT=stdio MCP_BASE_DIR=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/MCP-main
+[2025-09-10 15:24:57+0300] [INFO] SLURM_JOB_GPUS=1 CUDA_VISIBLE_DEVICES=0
+[2025-09-10 15:24:57+0300] [INFO] Uvicorn (srun step) PID: 2974514
+[2025-09-10 15:24:57+0300] [INFO] Waiting for model server health...
+[2025-09-10 15:24:59+0300] [INFO] Waiting for model server health...
+[2025-09-10 15:25:01+0300] [INFO] Waiting for model server health...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+[2025-09-10 15:25:04+0300] [INFO] Waiting for model server health...
+[2025-09-10 15:25:06+0300] [INFO] Waiting for model server health...
+[2025-09-10 15:25:08+0300] [INFO] Waiting for model server health...
+🦥 Unsloth Zoo will now patch everything to make training faster!
+[2025-09-10 15:25:10+0300] [INFO] Waiting for model server health...
+[2025-09-10 15:25:12+0300] [INFO] Waiting for model server health...
+[2025-09-10 15:25:14+0300] [ERROR] srun/uvicorn died during startup.
+[2025-09-10 15:25:14+0300] ========== DIAGNOSTICS (rc=1) ==========
+Wed Sep 10 15:25:14 EEST 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+212909              compression    RUNNING      0:0             1:0   00:00:17   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02             Unknown                           None                
+212909.batch              batch    RUNNING      0:0                   00:00:17                       cpu=1,gre+    dgxa100-ncit-wn02             Unknown                                               
+212909.exte+             extern    RUNNING      0:0                   00:00:17                       billing=1+    dgxa100-ncit-wn02             Unknown                                               
+212909.0                   bash     FAILED      1:0                   00:00:15                       cpu=1,gre+    dgxa100-ncit-wn02 2025-09-10T15:25:12                                               
+JobId=212909 JobName=compression
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=1:0
+   RunTime=00:00:17 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-09-10T15:24:15 EligibleTime=2025-09-10T15:24:15
+   AccrueTime=2025-09-10T15:24:15
+   StartTime=2025-09-10T15:24:57 EndTime=2025-09-11T03:24:57 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-09-10T15:24:57 Scheduler=Backfill
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:91892
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=40G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=255 Mem=40960 GRES=gpu:tesla_a100:1(IDX:1)
+   MinCPUsNode=24 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/212909/compression.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/compression/212909/compression.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+-- autossh tail --
+[2025-09-10 15:25:14+0300] ========== END DIAGNOSTICS ==========

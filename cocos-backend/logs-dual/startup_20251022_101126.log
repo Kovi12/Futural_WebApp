@@ -1,0 +1,81 @@
+[INFO] === Starting dual backend container setup ===
+[INFO] Log file: /var/log/llm-backend-dual/startup_20251022_101126.log
+[INFO] Probing host.docker.internal:23459/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23459...
+* connect to 172.17.0.1 port 23459 failed: Connection refused
+* Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23459. (This is only informational.)
+[INFO] Probing host.docker.internal:23456/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23456...
+* connect to 172.17.0.1 port 23456 failed: Connection refused
+* Failed to connect to host.docker.internal port 23456 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23456 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23456. (This is only informational.)
+[INFO] Starting dual backend Flask server on port 8010 ...
+/usr/local/lib/python3.11/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+[TOKEN REAPER] disabled
+ * Serving Flask app 'app_dual'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8010
+ * Running on http://172.17.0.7:8010
+[33mPress CTRL+C to quit[0m
+82.76.155.24 - - [22/Oct/2025 10:16:49] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:16:49] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:16:49] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:16:50] "[35m[1mPOST /answer HTTP/1.1[0m" 202 -
+82.76.155.24 - - [22/Oct/2025 10:16:52] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:16:53] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:16:55] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:16:56] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:16:58] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:16:59] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:01] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:02] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:04] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:05] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:07] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:08] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:10] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:11] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:13] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:14] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:16] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:17] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:19] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:20] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:22] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:23] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:25] "GET /progress_ui/meteo?token=17611279071940.11065349484484333 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:25] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:41] "POST /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:54] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:54] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:17:54] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:20:45] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:20:45] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:20:45] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:21:08] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:21:18] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:21:18] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:21:18] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:21:41] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:21:41] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:21:41] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:22:17] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:22:17] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:22:17] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:22:24] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:22:24] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:22:24] "OPTIONS /answer HTTP/1.1" 200 -

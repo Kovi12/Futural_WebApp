@@ -1,0 +1,23 @@
+[INFO] === Starting dual backend container setup ===
+[INFO] Log file: /var/log/llm-backend-dual/startup_20251022_165222.log
+[INFO] Checking reachability host.docker.internal:23459/health ...
+[WARN] Could not reach host.docker.internal:23459
+[INFO] Checking reachability host.docker.internal:23456/health ...
+[WARN] Could not reach host.docker.internal:23456
+[INFO] Starting dual backend Flask server on port 8010 ...
+/usr/local/lib/python3.11/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+ * Serving Flask app 'app_dual'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8010
+ * Running on http://172.17.0.7:8010
+[33mPress CTRL+C to quit[0m
+82.76.155.24 - - [22/Oct/2025 16:53:26] "[33mOPTIONS /route HTTP/1.1[0m" 404 -
+82.76.155.24 - - [22/Oct/2025 16:53:26] "[33mOPTIONS /answer HTTP/1.1[0m" 404 -
+82.76.155.24 - - [22/Oct/2025 16:53:33] "[33mOPTIONS /cancel_model HTTP/1.1[0m" 404 -
+82.76.155.24 - - [22/Oct/2025 16:53:41] "[33mOPTIONS /route HTTP/1.1[0m" 404 -
+82.76.155.24 - - [22/Oct/2025 16:53:41] "[33mOPTIONS /answer HTTP/1.1[0m" 404 -
+82.76.155.24 - - [22/Oct/2025 16:54:04] "[33mOPTIONS /route HTTP/1.1[0m" 404 -
+82.76.155.24 - - [22/Oct/2025 16:54:04] "[33mOPTIONS /answer HTTP/1.1[0m" 404 -

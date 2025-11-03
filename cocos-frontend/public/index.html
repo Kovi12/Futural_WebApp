@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FUTURAL – Router</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    /* Answer Panel (compact) */
+    .answer-panel{max-width:1120px;margin:18px auto 0;padding:0 16px}
+    .answer-card{border:1px solid var(--soft-border);border-radius:14px;box-shadow:var(--shadow);background:#fff}
+    .answer-head{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-bottom:1px solid var(--soft-border)}
+    .answer-source{font-weight:700;color:var(--navy-800)}
+    .route-chips{display:flex;gap:6px}
+    .chip{font-size:12px;padding:6px 10px;border-radius:999px;border:1px solid var(--soft-border);background:#f7fbfb;cursor:pointer}
+    .chip.active{background:var(--teal);color:#fff;border-color:transparent}
+    .answer-body{padding:12px}
+    .loader{height:8px;background:#0f2431;border-radius:6px;overflow:hidden}
+    .loader > div{height:100%;width:0;background:#12bfb3;transition:width .35s}
+    .muted{color:#697983;font-size:13px}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img class="hero-bg" src="./images/hero-bg.jpg" alt="">
+    <div class="hero-content">
+      <img class="hero-logo" src="./images/logo-futural.png" alt="FUTURAL" />
+      <div class="hero-subtitle">METASEARCH</div>
+      <p class="hero-caption">Type a question or a few words</p>
+
+      <div id="search-wrap" class="search-wrap" role="search">
+        <img class="search-icon" src="./images/icons/search.png" alt="">
+        <input id="q" class="search-input" type="text" placeholder="e.g. weather in Cluj , plant tomatoes in Bucharest, closest pharmacy in Abadiño" />
+        <button id="go" class="btn primary">Ask</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Answer Panel -->
+  <div class="answer-panel">
+    <div id="answer" class="answer-card" style="display:none">
+      <div class="answer-head">
+        <div class="answer-source">Answer from: <span id="src">-</span> <span id="why" class="muted"></span></div>
+        <div class="route-chips">
+          <button class="chip" data-route="meteo">Meteo</button>
+          <button class="chip" data-route="compression">Compression</button>
+          <button class="chip" data-route="durangaldea">Durangaldea</button>
+          <button class="chip" data-route="search">Search</button>
+        </div>
+      </div>
+      <div class="answer-body">
+        <div id="loader" class="loader" style="display:none"><div id="bar"></div></div>
+        <div id="text"></div>
+      </div>
+    </div>
+  </div>
+
+  <section class="content-band">
+    <main class="container">
+      <h2 class="section-title">Follow our top Platforms</h2>
+      <div id="services-grid" class="services-grid"></div>
+    </main>
+  </section>
+
+  <script src="./router.js"></script>
+</body>
+</html>

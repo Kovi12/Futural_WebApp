@@ -1,0 +1,37 @@
+[INFO] === Starting backend container setup ===
+[INFO] Log file: /var/log/llm-backend/startup_20250808_132843.log
+[INFO] Testing if model is running on host.docker.internal:23459...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23459...
+* connect to 172.17.0.1 port 23459 failed: Connection refused
+* Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+[WARN] Could not reach the model on host.docker.internal:23459
+[INFO] Forwarding container:localhost:34567 → host.docker.internal:23459 using socat...
+[DEBUG] socat pid 13
+[DEBUG] Checking if socat is listening on 34567...
+COMMAND PID USER   FD   TYPE    DEVICE SIZE/OFF NODE NAME
+socat    13 root    5u  IPv4 127398656      0t0  TCP *:34567 (LISTEN)
+[INFO] Verifying tunnel: http://localhost:34567/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 127.0.0.1:34567...
+* Connected to localhost (127.0.0.1) port 34567 (#0)
+> GET /health HTTP/1.1
+> Host: localhost:34567
+> User-Agent: curl/7.88.1
+> Accept: */*
+> 
+* Empty reply from server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (52) Empty reply from server
+[ERROR] Local tunnel (localhost:34567) is not responding
+[INFO] Starting backend Flask server...
+  File "/app/app.py", line 236
+    print(f"[INFO] Freed node {node} after job {session.get("job_id")} ended")
+                                                             ^^^^^^
+SyntaxError: f-string: unmatched '('

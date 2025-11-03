@@ -1,0 +1,70 @@
+[INFO] === Starting backend container setup ===
+[INFO] Log file: /var/log/llm-backend/startup_20251009_115322.log
+[INFO] Testing reachability on host.docker.internal:23459...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23459...
+* connect to 172.17.0.1 port 23459 failed: Connection refused
+* Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23459. This is only a heads up.
+[INFO] Starting backend Flask server...
+/usr/local/lib/python3.11/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7010
+ * Running on http://172.17.0.6:7010
+[33mPress CTRL+C to quit[0m
+82.76.155.24 - - [09/Oct/2025 11:53:27] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:31] "[35m[1mPOST /answer HTTP/1.1[0m" 202 -
+82.76.155.24 - - [09/Oct/2025 11:53:33] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:34] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:36] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:37] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:39] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:40] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:42] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:43] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:45] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:46] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:48] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:49] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:51] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:52] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:54] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:55] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:57] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:53:58] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:00] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:01] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:03] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:04] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:06] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:07] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:09] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:10] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:12] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:13] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:15] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:16] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:18] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:19] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:21] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:22] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:24] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:25] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:27] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:28] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:30] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:31] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:33] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:34] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:36] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:37] "GET /progress_ui/meteo?token=17600108178810.264143955070102 HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:38] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [09/Oct/2025 11:54:38] "POST /cancel_model HTTP/1.1" 200 -

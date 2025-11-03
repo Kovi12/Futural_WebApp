@@ -1,0 +1,23 @@
+[INFO] === Starting dual backend container setup ===
+[INFO] Log file: /var/log/llm-backend-dual/startup_20251022_110504.log
+[INFO] Probing host.docker.internal:23459/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23459...
+* connect to 172.17.0.1 port 23459 failed: Connection refused
+* Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23459. (This is only informational.)
+[INFO] Probing host.docker.internal:23456/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23456...
+* connect to 172.17.0.1 port 23456 failed: Connection refused
+* Failed to connect to host.docker.internal port 23456 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23456 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23456. (This is only informational.)
+[INFO] Starting dual backend Flask server on port 8010 ...

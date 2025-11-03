@@ -1,0 +1,3 @@
+# Ignore original local SSH keys from being included
+# ssh_keys/id_ed25519
+# ssh_keys/id_ed25519.pub

@@ -1,0 +1,365 @@
+[2025-10-29 13:24:52+0200] [INFO] Env detect: PY_BIN='/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python' CONDA_RUN='' CONDA_SH=''
+[2025-10-29 13:24:52+0200] [INFO] Uvicorn (srun step) PID: 1344422
+[2025-10-29 13:24:52+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:24:54+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:24:56+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:24:58+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:00+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:02+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:04+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:06+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:08+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:10+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:12+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:14+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:16+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:18+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:20+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:22+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:24+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:26+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:28+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:30+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:32+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:34+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:36+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:38+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:40+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:42+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:44+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:46+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:48+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:50+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:52+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:54+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:56+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:25:58+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:00+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:02+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:04+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:06+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:08+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:10+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:12+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:14+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:16+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:18+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:20+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:22+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:24+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:26+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:28+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:30+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:32+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:34+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:36+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:38+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:40+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:42+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:44+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:46+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:48+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:50+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:52+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:54+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:56+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:26:58+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:00+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:02+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:04+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:06+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:08+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:10+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:12+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:14+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:16+0200] [INFO] Waiting for model server health...
+[2025-10-29 13:27:18+0200] [INFO] Waiting for model server health...
+[2025-10-29T13:27:19.433223] [WORKER] deepseek started
+[2025-10-29 13:27:20+0200] [INFO] Health OK.
+[2025-10-29 13:27:20+0200] [INFO] Using autossh at: /export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/autossh/bin/autossh
+[2025-10-29 13:27:22+0200] [INFO] autossh wrapper PID: 1353200; log: /tmp/autossh_deepseek_dual_222966.log
+[2025-10-29 13:27:22+0200] [INFO] Reverse exposed at cocos:23456
+[2025-10-29 13:27:26+0200] [INFO] Warm-up query sent.
+[2025-10-29 13:38:40+0200] [DIAG] SIGTERM
+[2025-10-29 13:38:40+0200] ========== DIAGNOSTICS (rc=143) ==========
+Wed Oct 29 13:38:40 EET 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+222966            deepseek_dual CANCELLED+      0:0             0:0   00:13:49   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-10-29T13:38:40                           None                
+222966.batch              batch  CANCELLED      0:0                   00:13:49                       cpu=1,gre+    dgxa100-ncit-wn02 2025-10-29T13:38:40                                               
+222966.exte+             extern  CANCELLED      0:0                   00:13:49                       billing=1+    dgxa100-ncit-wn02 2025-10-29T13:38:40                                               
+222966.0                   bash  CANCELLED      0:0                   00:13:48                       cpu=1,gre+    dgxa100-ncit-wn02 2025-10-29T13:38:40                                               
+JobId=222966 JobName=deepseek_dual
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:13:49 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-10-29T13:24:51 EligibleTime=2025-10-29T13:24:51
+   AccrueTime=2025-10-29T13:24:51
+   StartTime=2025-10-29T13:24:51 EndTime=2025-10-29T13:38:40 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-10-29T13:24:51 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:2103331
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=32G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=32G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=214 Mem=32768 GRES=
+   MinCPUsNode=4 MinMemoryNode=32G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job_dual.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/deepseek_dual/222966/deepseek_dual.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/deepseek_dual/222966/deepseek_dual.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+1344422 1344408 1344408       13:48 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc      set -euo pipefail     echo "[SRUN] starting on $(hostname)"      RUN_CMD=()     if [[ -n "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python" ]]; then       echo "[SRUN] using env python: /export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python"       RUN_CMD=("/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python")     elif [[ -n "" ]]; then       echo "[SRUN] using conda run"       RUN_CMD=("" run -n mcp-poc python)     elif [[ -n "" ]]; then       echo "[SRUN] sourcing conda.sh and activating mcp-poc"       source ""       conda activate mcp-poc       RUN_CMD=(python)     else       echo "[SRUN][FATAL] No conda env found and no conda.sh to activate. Aborting."       exit 1     fi      echo "[SRUN] which python: $(command -v "${RUN_CMD[0]}" || true)"     "${RUN_CMD[@]}" --version || true      # quick sanity import so we fail fast if env is wrong     "${RUN_CMD[@]}" - <<PY try:     import typing_extensions, fastapi, uvicorn     print("[SRUN] imports OK") except Exception as e:     import sys, traceback     print("[SRUN] import error:", e)     traceback.print_exc()     sys.exit(1) PY      # NOTE: Unsloth complains if imported after transformers;     # our http_model_server_* files already import in the correct order.     PYTHONUNBUFFERED=1 "${RUN_CMD[@]}" -m uvicorn http_model_server_deepseek_dual:app --host 0.0.0.0 --port 35172 --log-level info   
+-- autossh tail --
+autossh[1353205]: port set to 0, monitoring disabled
+autossh[1353205]: checking for grace period, tries = 0
+autossh[1353205]: starting ssh (count 1)
+autossh[1353205]: ssh child pid is 1353207
+autossh[1353205]: check on child 1353207
+autossh[1353205]: clear alarm timer (0 secs left)
+autossh[1353205]: set alarm for 600 secs
+autossh[1353207]: child of 1353205 execing /usr/bin/ssh
+OpenSSH_8.0p1, OpenSSL 1.1.1k  FIPS 25 Mar 2021
+debug1: Reading configuration data /export/home/proiecte/aux/ovidiu.ghibea/.ssh/config
+debug1: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/config line 1: Applying options for cocos
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf
+debug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config
+debug1: configuration requests final Match pass
+debug1: re-parsing configuration
+debug1: Reading configuration data /export/home/proiecte/aux/ovidiu.ghibea/.ssh/config
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf
+debug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config
+debug1: Connecting to 141.85.248.2 [141.85.248.2] port 22.
+debug1: Connection established.
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa type 0
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa-cert type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_dsa type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_dsa-cert type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ecdsa type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ecdsa-cert type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ed25519 type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ed25519-cert type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_xmss type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_xmss-cert type -1
+debug1: Local version string SSH-2.0-OpenSSH_8.0
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+debug1: match: OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13 pat OpenSSH_6.6.1* compat 0x04000002
+debug1: Authenticating to 141.85.248.2:22 as 'ovidiug'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: aes256-gcm@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: aes256-gcm@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=32 dh_need=32
+debug1: kex: curve25519-sha256@libssh.org need=32 dh_need=32
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:2F52wkpuKvs3B45B3d6fAWia5pr9jaAoa3NSgP/ptlE
+debug1: Host '141.85.248.2' is known and matches the ECDSA host key.
+debug1: Found key in /export/home/proiecte/aux/ovidiu.ghibea/.ssh/known_hosts:1
+debug1: rekey out after 4294967296 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 4294967296 blocks
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa RSA SHA256:XXtT10pTHgTIINXKAbgXVI0NeW712voQDfFWO6QH7wU
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_dsa 
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ecdsa 
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ed25519 
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_xmss 
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Offering public key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa RSA SHA256:XXtT10pTHgTIINXKAbgXVI0NeW712voQDfFWO6QH7wU
+debug1: Server accepts key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa RSA SHA256:XXtT10pTHgTIINXKAbgXVI0NeW712voQDfFWO6QH7wU
+debug1: Authentication succeeded (publickey).
+Authenticated to 141.85.248.2 ([141.85.248.2]:22).
+debug1: Remote connections from 0.0.0.0:23456 forwarded to local address 127.0.0.1:35172
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: remote forward success for: listen 0.0.0.0:23456, connect 127.0.0.1:35172
+debug1: All remote forwarding requests processed
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.7 port 51178
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:35172) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 35172
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.7 port 51180
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:35172) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 35172
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.7 port 51182
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:35172) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 35172
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+autossh[1353205]: received SIGALRM (end-of-life 0)
+autossh[1353205]: check on child 1353207
+autossh[1353205]: clear alarm timer (0 secs left)
+autossh[1353205]: set alarm for 600 secs
+[2025-10-29 13:38:41+0200] ========== END DIAGNOSTICS ==========
+[2025-10-29 13:38:41+0200] ========== DIAGNOSTICS (rc=143) ==========
+Wed Oct 29 13:38:41 EET 2025
+JobID                   JobName      State ExitCode DerivedExitCode    Elapsed  Timelimit    ReqTRES  AllocTRES             NodeList                 End                         Reason        Comment 
+------------ ------------------ ---------- -------- --------------- ---------- ---------- ---------- ---------- -------------------- ------------------- ------------------------------ -------------- 
+222966            deepseek_dual CANCELLED+      0:0             0:0   00:13:49   12:00:00 billing=1+ billing=1+    dgxa100-ncit-wn02 2025-10-29T13:38:40                           None                
+222966.batch              batch  CANCELLED      0:0                   00:13:49                       cpu=1,gre+    dgxa100-ncit-wn02 2025-10-29T13:38:40                                               
+222966.exte+             extern  CANCELLED      0:0                   00:13:49                       billing=1+    dgxa100-ncit-wn02 2025-10-29T13:38:40                                               
+222966.0                   bash  CANCELLED      0:0                   00:13:48                       cpu=1,gre+    dgxa100-ncit-wn02 2025-10-29T13:38:40                                               
+JobId=222966 JobName=deepseek_dual
+   UserId=ovidiu.ghibea(109059) GroupId=studfils(9016) MCS_label=N/A
+   Priority=1 Nice=0 Account=student QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:13:49 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-10-29T13:24:51 EligibleTime=2025-10-29T13:24:51
+   AccrueTime=2025-10-29T13:24:51
+   StartTime=2025-10-29T13:24:51 EndTime=2025-10-29T13:38:40 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-10-29T13:24:51 Scheduler=Main
+   Partition=dgxa100 AllocNode:Sid=0.0.0.0:2103331
+   ReqNodeList=dgxa100-ncit-wn02 ExcNodeList=(null)
+   NodeList=dgxa100-ncit-wn02
+   BatchHost=dgxa100-ncit-wn02
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=32G,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=1,mem=32G,node=1,billing=1,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=gpu:tesla_a100:1
+     Nodes=dgxa100-ncit-wn02 CPU_IDs=214 Mem=32768 GRES=
+   MinCPUsNode=4 MinMemoryNode=32G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=YES Contiguous=0 Licenses=(null) Network=(null)
+   Command=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/run_model_job_dual.sh
+   WorkDir=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp
+   StdErr=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/deepseek_dual/222966/deepseek_dual.err
+   StdIn=/dev/null
+   StdOut=/export/home/proiecte/aux/ovidiu.ghibea/Futural_WebApp/logs/deepseek_dual/222966/deepseek_dual.out
+   TresPerNode=gres/gpu:tesla_a100:1
+   
+
+-- ps (uvicorn srun) --
+    PID    PPID    PGID     ELAPSED STAT CMD
+1344422 1344408 1344408       13:49 Sl   srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc      set -euo pipefail     echo "[SRUN] starting on $(hostname)"      RUN_CMD=()     if [[ -n "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python" ]]; then       echo "[SRUN] using env python: /export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python"       RUN_CMD=("/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/mcp-poc/bin/python")     elif [[ -n "" ]]; then       echo "[SRUN] using conda run"       RUN_CMD=("" run -n mcp-poc python)     elif [[ -n "" ]]; then       echo "[SRUN] sourcing conda.sh and activating mcp-poc"       source ""       conda activate mcp-poc       RUN_CMD=(python)     else       echo "[SRUN][FATAL] No conda env found and no conda.sh to activate. Aborting."       exit 1     fi      echo "[SRUN] which python: $(command -v "${RUN_CMD[0]}" || true)"     "${RUN_CMD[@]}" --version || true      # quick sanity import so we fail fast if env is wrong     "${RUN_CMD[@]}" - <<PY try:     import typing_extensions, fastapi, uvicorn     print("[SRUN] imports OK") except Exception as e:     import sys, traceback     print("[SRUN] import error:", e)     traceback.print_exc()     sys.exit(1) PY      # NOTE: Unsloth complains if imported after transformers;     # our http_model_server_* files already import in the correct order.     PYTHONUNBUFFERED=1 "${RUN_CMD[@]}" -m uvicorn http_model_server_deepseek_dual:app --host 0.0.0.0 --port 35172 --log-level info   
+-- autossh tail --
+autossh[1353205]: port set to 0, monitoring disabled
+autossh[1353205]: checking for grace period, tries = 0
+autossh[1353205]: starting ssh (count 1)
+autossh[1353205]: ssh child pid is 1353207
+autossh[1353205]: check on child 1353207
+autossh[1353205]: clear alarm timer (0 secs left)
+autossh[1353205]: set alarm for 600 secs
+autossh[1353207]: child of 1353205 execing /usr/bin/ssh
+OpenSSH_8.0p1, OpenSSL 1.1.1k  FIPS 25 Mar 2021
+debug1: Reading configuration data /export/home/proiecte/aux/ovidiu.ghibea/.ssh/config
+debug1: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/config line 1: Applying options for cocos
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf
+debug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config
+debug1: configuration requests final Match pass
+debug1: re-parsing configuration
+debug1: Reading configuration data /export/home/proiecte/aux/ovidiu.ghibea/.ssh/config
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf
+debug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config
+debug1: Connecting to 141.85.248.2 [141.85.248.2] port 22.
+debug1: Connection established.
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa type 0
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa-cert type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_dsa type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_dsa-cert type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ecdsa type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ecdsa-cert type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ed25519 type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ed25519-cert type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_xmss type -1
+debug1: identity file /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_xmss-cert type -1
+debug1: Local version string SSH-2.0-OpenSSH_8.0
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+debug1: match: OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13 pat OpenSSH_6.6.1* compat 0x04000002
+debug1: Authenticating to 141.85.248.2:22 as 'ovidiug'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: aes256-gcm@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: aes256-gcm@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=32 dh_need=32
+debug1: kex: curve25519-sha256@libssh.org need=32 dh_need=32
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:2F52wkpuKvs3B45B3d6fAWia5pr9jaAoa3NSgP/ptlE
+debug1: Host '141.85.248.2' is known and matches the ECDSA host key.
+debug1: Found key in /export/home/proiecte/aux/ovidiu.ghibea/.ssh/known_hosts:1
+debug1: rekey out after 4294967296 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 4294967296 blocks
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa RSA SHA256:XXtT10pTHgTIINXKAbgXVI0NeW712voQDfFWO6QH7wU
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_dsa 
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ecdsa 
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_ed25519 
+debug1: Will attempt key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_xmss 
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Offering public key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa RSA SHA256:XXtT10pTHgTIINXKAbgXVI0NeW712voQDfFWO6QH7wU
+debug1: Server accepts key: /export/home/proiecte/aux/ovidiu.ghibea/.ssh/id_rsa RSA SHA256:XXtT10pTHgTIINXKAbgXVI0NeW712voQDfFWO6QH7wU
+debug1: Authentication succeeded (publickey).
+Authenticated to 141.85.248.2 ([141.85.248.2]:22).
+debug1: Remote connections from 0.0.0.0:23456 forwarded to local address 127.0.0.1:35172
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: remote forward success for: listen 0.0.0.0:23456, connect 127.0.0.1:35172
+debug1: All remote forwarding requests processed
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.7 port 51178
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:35172) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 35172
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.7 port 51180
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:35172) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 35172
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+debug1: client_input_channel_open: ctype forwarded-tcpip rchan 2 win 2097152 max 32768
+debug1: client_request_forwarded_tcpip: listen 0.0.0.0 port 23456, originator 172.17.0.7 port 51182
+debug1: connect_next: host 127.0.0.1 ([127.0.0.1]:35172) in progress, fd=5
+debug1: channel 0: new [172.17.0.7]
+debug1: confirm forwarded-tcpip
+debug1: channel 0: connected to 127.0.0.1 port 35172
+debug1: channel 0: free: 172.17.0.7, nchannels 1
+autossh[1353205]: received SIGALRM (end-of-life 0)
+autossh[1353205]: check on child 1353207
+autossh[1353205]: clear alarm timer (0 secs left)
+autossh[1353205]: set alarm for 600 secs
+[2025-10-29 13:38:41+0200] ========== END DIAGNOSTICS ==========

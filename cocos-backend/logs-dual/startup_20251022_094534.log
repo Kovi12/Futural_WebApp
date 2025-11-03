@@ -1,0 +1,186 @@
+[INFO] === Starting dual backend container setup ===
+[INFO] Log file: /var/log/llm-backend-dual/startup_20251022_094534.log
+[INFO] Probing host.docker.internal:23459/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23459...
+* connect to 172.17.0.1 port 23459 failed: Connection refused
+* Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23459 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23459. (This is only informational.)
+[INFO] Probing host.docker.internal:23456/health ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.17.0.1:23456...
+* connect to 172.17.0.1 port 23456 failed: Connection refused
+* Failed to connect to host.docker.internal port 23456 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to host.docker.internal port 23456 after 0 ms: Couldn't connect to server
+[WARN] Could not reach host.docker.internal:23456. (This is only informational.)
+[INFO] Starting dual backend Flask server on port 8010 ...
+/usr/local/lib/python3.11/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+ * Serving Flask app 'app_dual'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8010
+ * Running on http://172.17.0.7:8010
+[33mPress CTRL+C to quit[0m
+82.76.155.24 - - [22/Oct/2025 09:46:05] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:05] "POST /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:13] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:13] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:13] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:13] "[35m[1mPOST /answer HTTP/1.1[0m" 202 -
+82.76.155.24 - - [22/Oct/2025 09:46:15] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:16] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:18] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:19] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:21] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:22] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:24] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:25] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:27] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:28] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:30] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:31] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:33] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:34] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:36] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:37] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:39] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:40] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:42] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:43] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:45] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:46] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:48] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:49] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:51] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:52] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:54] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:55] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:57] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:46:58] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:00] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:01] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:03] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:04] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:06] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:07] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:09] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:10] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:12] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:13] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:15] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:16] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:18] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:19] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:21] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:22] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:24] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:25] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:27] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:28] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:30] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:31] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:33] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:34] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:36] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:37] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:39] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:40] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:42] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:43] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:45] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:46] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:48] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:49] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:51] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:52] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:54] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:55] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:57] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:47:58] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:00] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:01] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:03] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:04] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:06] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:07] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:09] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:10] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:12] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:13] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:15] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:16] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:18] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:19] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:21] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:22] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:24] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:25] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:27] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:28] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:30] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:31] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:33] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:34] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:36] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:37] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:40] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:41] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:43] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:44] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:45] "GET /progress_ui/meteo?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:45] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:48:45] "POST /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:49:12] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:49:12] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:49:12] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:49:12] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:49:12] "POST /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:49:54] "POST /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:45] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:45] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:45] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:45] "POST /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:45] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:45] "POST /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:56] "OPTIONS /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:56] "POST /route HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:56] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:56] "[35m[1mPOST /answer HTTP/1.1[0m" 202 -
+82.76.155.24 - - [22/Oct/2025 09:50:58] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:50:59] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:01] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:02] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:04] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:05] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:07] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:08] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:10] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:11] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:13] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:14] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:16] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:17] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:19] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:20] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:22] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:23] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:25] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:26] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:28] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:29] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:31] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:33] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:34] "GET /progress_ui/durangaldea?token=17611264347340.6084302785115611 HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:34] "OPTIONS /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 09:51:37] "POST /answer HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:10:38] "OPTIONS /cancel_model HTTP/1.1" 200 -
+82.76.155.24 - - [22/Oct/2025 10:10:38] "POST /cancel_model HTTP/1.1" 200 -

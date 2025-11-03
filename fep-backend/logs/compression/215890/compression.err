@@ -1,0 +1,8 @@
++ set +x
++ srun --ntasks=1 --cpu-bind=none --gres=gpu:1 --gpu-bind=single:1 bash -lc 'PYTHONUNBUFFERED=1 uvicorn http_model_server:app --host 0.0.0.0 --port 24455 --log-level info'
+GpuFreq=control_disabled
+Device set to use cuda:0
+INFO:     Started server process [2257425]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:24455 (Press CTRL+C to quit)
