@@ -263,6 +263,7 @@ def reason_matches_any(reason: str, candidates: set[str]) -> bool:
         r = r[1:-1]
     return any(k in r for k in candidates)
 
+# stand-in for embedding classification --- to be changed and improved later
 _RE_METEO = re.compile(r"\b(weather|forecast|temperature|rain|precip|wind|gust|snow|sunrise|sunset|today|tomorrow|weekend)\b", re.I)
 _RE_COMP_AGRO = re.compile(r"\b(plant|sow|seed|germination|harvest|crop|cultivar|greenhouse|soil|frost|season)\b", re.I)
 _RE_COMP_MULTI = re.compile(r"\b(and|also|both|together|combine)\b", re.I)
